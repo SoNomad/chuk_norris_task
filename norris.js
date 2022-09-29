@@ -6,7 +6,9 @@ const fn = async () => {
 
 const btn = document.createElement("button");
 btn.textContent = "say";
+
 const jokeContainer = document.querySelector(".joke_div");
+
 const jokeText = document.createElement("div");
 jokeContainer.append(jokeText, btn);
 
